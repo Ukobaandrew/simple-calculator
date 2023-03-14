@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+input {
+  width: 30%;
+  font-size: 100%;
+  height: 35%;
+  background-color: grey;
+  font-weight: bold;
+}
+.display {
+  border: 2px solid grey;
+  height: 7vh;
+  background-color: #fff;
+  border-radius: 8px;
+  color: black;
+  font-size: larger;
+  padding: 10px 10px 10px 10px;
+  width: 100%;
+  overflow: auto;
+}
+.calculator {
+  background-color: #ccc;
+  padding: 30px 30px 30px 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+.container {
+  border: 15px solid #ddd;
+  border-radius: 10px;
+}
+.numbers {
+  width: 100%;
+}
